@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&family=Hind:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap');
+
+.navbar {
+  padding: 0px;
+}
+
+.Header-text {
+  font-family: 'Noto Sans', sans-serif;
+  color: black;
+  font-size: 17px;
+}
+
+.home-page-header {
+  background-color: white;
+  padding-left: 0rem
+}
+
+#searchForm {
+  background-color: #E5E5E5;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#searchFormBtn {
+  border-radius: 0px 5px 5px 0px;
+}
+
+#searchArea {
+  margin-right: 34px
+}
+
+.homePagesLogan {
+  background-color: white;
+  border-radius: 0px 0px 0px 0px;
+  padding: 0rem;
+}
+
+#homePagesLogan {
+  border-radius: 0px;
+}
+
+.card {
+  border-radius: 0px;
+}
+
+.CarouselCard {
+  width: 477px;
+  height: 269.01px;
+  border-radius: 15px;
+}
+
+.card-title {
+  margin-top: 190px;
+  font-size: 96px;
+  color: white;
+  font-weight: 400;
+}
+
+.homePageBody-link {
+  height: 100%;
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+}
+
+.homePageBody-hover {
+  height: 100%;
+  position: relative;
+  border-radius: 15px
+}
+
+.card-img-bg {
+  object-fit: cover;
+}
+
+.HPB {
+  position: relative;
+  height: 100%;
+}
+
+.HPB-layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .2s, visibility .2s;
+  border-radius: 15px;
+}
+
+.HPB:hover .HPB-layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.HPB-text {
+  transition: .2s;
+  transform: translateY(1em);
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+.HPB:hover .HPB-text {
+  transform: translateY(0);
+}
+
+.HomepageBody-title {
+  font-family: 'Big Shoulders Stencil Display', sans-serif;
+  font-size: 80px;
+  margin-top: 42px;
+  margin-bottom: 45px;
+}
+
+/* .homePageBody-link{
+  border-radius: 15px;
+} */
+.btn-scheme-dark {
+  color: #333;
+  border: 2px solid black;
+  border-radius: 0;
+  margin-top: 32px;
+  padding: 12px 28px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-scheme-dark:hover {
+  background-color: black;
+  color: white
+}
+
+.HomepageBody-title-background {
+  background-color: rgba(20, 20, 20, 0.11);
+  padding: 10px 0;
+}
+
+.card-img-slider {
+  object-fit: contain;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding: 10px
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev:after {
+  font-size: 20px;
+  position: absolute;
+  right: 23px
+}
+
+.swiper-button-next:after {
+  font-size: 20px;
+  position: absolute;
+  left: 23px
+}
+
+.swiper-wrapper {
+  padding-bottom: 20px;
+}
+
+.HomePageBodySecondHalfSecondEL {
+  margin-top: 36px
+}
+
+.HPBSHSe {
+  border-radius: 20px
+}
+
+.FooterContainer {
+  padding: 80px 20px 20px 20px;
+}
+
+.FooterAddress {
+  text-align: left;
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+  font-size: 17px;
+}
+
+.FooterAddressLink {
+  text-decoration: none;
+  color: white;
+}
+
+.FooterAddress-social-media {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  margin: 0 5px;
+  position: relative;
+}
+
+.FooterAddress-social-media a {
+  color: white;
+  display: flex;
+  margin: 14px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-divider {
+  width: -webkit-fill-available;
+  border-top: 1px solid white;
+}
+
+.articleContent {
+  font-family: 'Noto Sans', sans-serif;
+  color: black;
+  font-size: 40px;
+}
+
+.article-header {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  color: black;
+  font-size: 40px;
+}
+
+.article-main-left-content {
+  width: calc(100% - var(--width-sidebar));
+}
+
+.side-bar-list {
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 20px 30px;
+}
+
+.side-bar-list-item-post-link {
+  text-decoration: none;
+  color: black;
+}
+
+.side-bar-list-item-post-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 15px 0 20px 0;
+}
+
+.articleContent-body {
+  text-align: left;
+  font-size: 17px;
+}
+
+.sticky-div {
+  position: sticky;
+  top: 10px;
+  bottom: 10px;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 10px;
+  bottom: 10px;
+  z-index: 1020;
+}
+
+.card-width {
+  width: 18rem;
+  transition: width 0.5s ease-in;
+}
+
+.card-width-expanded {
+  width: 50%;
+  transition: width 0.5s ease-out;
+}
+
+.site-content {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.articleText {
+  margin: 1.5rem 0;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.articleSideBarText {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.sidebar-button {
+  border-radius: 20px;
+}
+
+/* .homePageBody-hover-imgBackground::before{
+  content: "";
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .5s ease;
+} */
+
+/* .homePageBody-hover-text {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  color: black;
+  z-index: 2;
+  padding: 0 30px;
+  opacity: 0;
+} */
