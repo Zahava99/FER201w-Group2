@@ -50,7 +50,7 @@ export const Products = [
     },
     {
         id:'8',
-        img:'assets/images/DDT1.jpg',
+        img:'assets/images/DDT8.jpg',
         title:'listOfProductSecond',
         description:'Lorem ipsum dolor sit amet. Qui quis rerum id nesciunt sunt non,Lorem ipsum dolor sit amet. Qui quis rerum id nesciunt sunt non',
         author:'Khang',

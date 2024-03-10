@@ -6,22 +6,10 @@ import HomePageBodySecondHalf from './HomePageBodySecondHalf'
 import { Products } from '../shared/ListOfProduct'
 import axios from 'axios'
 export default function HomePageBody () {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    axios.get('https://65b46f4341db5efd28668857.mockapi.io/api/InteriorDesignArticle/IDAPost')
-      .then(response => {
-        setProducts(response.data);
-        console.log(response.data);
-      })
-      .catch(error => {
-        console.error('Error fetching data:', error);
-      });
-  }, []);
-  const listOfProductFirst = products.filter(
+  const listOfProductFirst = Products.filter(
     productItem => productItem.id >= 1 && productItem.id <= 4
   )
-  const listOfProductSecond = products.filter(
+  const listOfProductSecond = Products.filter(
     productItem => productItem.id >= 5 && productItem.id <= 8
   )
   const renderProductsFirst = () => {
